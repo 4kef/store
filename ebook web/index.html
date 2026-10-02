@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic Bookstore | Premium Collection</title>
+    <link rel="stylesheet" href="store.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Glow Orbs for GenZ Vibe -->
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+
+    <!-- Navigation -->
+    <nav class="store-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text" style="font-weight: 800;">KAHF</span>
+                <span class="logo-text" style="font-weight: 300; letter-spacing: 2px; margin-left: 4px;">INSTITUTE</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Collection</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="cart-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 20a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-9.8-2h11.6a2 2 0 0 0 1.9-1.5l2.4-9a2 2 0 0 0-1.9-2.5H6.2L5.4 2H2v2h2.2l3.4 12.3a2 2 0 0 0-1.4 1.7z"/></svg>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="store-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="animate-blur-up" style="transition-delay: 0.1s">Discover Timeless <span class="italic-serif">Wisdom</span></h1>
+            <p class="animate-blur-up" style="transition-delay: 0.2s">A curated collection of the most profound Islamic literature, biographies of the Prophet ﷺ, and essential supplications.</p>
+        </div>
+    </header>
+
+    <!-- Main Storefront -->
+    <main class="store-main">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-fade-in-up" style="transition-delay: 0.1s">Our Collection</h2>
+                <div class="filter-sort animate-fade-in-up" style="transition-delay: 0.2s">
+                    <select class="sort-select">
+                        <option>Sort by: Featured</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Dynamic Product Grid -->
+            <div id="product-grid" class="product-grid">
+                <!-- Products will be injected here by app.js -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="store-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col animate-fade-in-up" style="transition-delay: 0.1s">
+                    <div class="logo">
+                        <span class="logo-text" style="font-weight: 800;">KAHF</span>
+                        <span class="logo-text" style="font-weight: 300; letter-spacing: 2px; margin-left: 4px;">INSTITUTE</span>
+                    </div>
+                    <p style="margin-top: 1rem;">Illuminating hearts and minds with authentic Islamic literature.</p>
+                </div>
+                <div class="footer-col animate-fade-in-up" style="transition-delay: 0.2s">
+                    <h4>Quick Links</h4>
+                    <a href="#">Home</a>
+                    <a href="#">All Books</a>
+                    <a href="#">Shipping Policy</a>
+                </div>
+                <div class="footer-col animate-fade-in-up" style="transition-delay: 0.3s">
+                    <h4>Subscribe</h4>
+                    <p>Get updates on new releases.</p>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Email address">
+                        <button>Join</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kahf Institute. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

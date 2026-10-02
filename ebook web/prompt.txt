@@ -1,0 +1,1 @@
+i gave cover, back cover, 3 inside of the book image in the sealedNector/assets directory, use ebook-landing-generator skill and create it inside that sealedNector directory, here is a bit about the book - 
